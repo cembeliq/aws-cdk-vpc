@@ -7,7 +7,7 @@ from vpc.vpc_stack import VpcStack
 
 
 app = cdk.App()
-VpcStack(app, "VpcStack",
+VpcStack(app, "VpcStackPintusukses",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
